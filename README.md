@@ -4,11 +4,11 @@
 
 **Auteur:** GAVI Holali David  
 **Cours:** RSX217 - Mini-projet #19  
-**Date:** Décembre 2024
+**Date:** Décembre 2025
 
 ---
 
-## 📋 Description du Projet
+## Description du Projet
 
 Ce projet implémente un environnement SDN (Software-Defined Networking) avec gestion de la Qualité de Service (QoS) utilisant:
 - **Contrôleur Ryu** pour le plan de contrôle
@@ -23,7 +23,7 @@ Ce projet implémente un environnement SDN (Software-Defined Networking) avec ge
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
                     ┌─────────────────────┐
@@ -60,7 +60,7 @@ Ce projet implémente un environnement SDN (Software-Defined Networking) avec ge
 
 ---
 
-## 📁 Structure du Projet
+## Structure du Projet
 
 ```
 sdn-qos-project/
@@ -83,7 +83,7 @@ sdn-qos-project/
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ### Prérequis
 
@@ -159,7 +159,7 @@ mininet> h1 iperf3 -c 10.0.0.3 -p 5202 -t 30 -b 200M
 
 ---
 
-## 📊 Génération de Trafic
+## Génération de Trafic
 
 ### Trafic Statique
 ```bash
@@ -194,7 +194,7 @@ python3 scripts/traffic_generator.py \
 
 ---
 
-## 📈 Collecte des Métriques
+## Collecte des Métriques
 
 ### Lancer la collecte complète
 ```bash
@@ -232,7 +232,7 @@ ovs-ofctl -O OpenFlow13 dump-ports s4
 
 ---
 
-## 📐 Métriques Mesurées
+## Métriques Mesurées
 
 ### 1. Throughput (Débit)
 - Mesuré avec iperf3 en Mbps
@@ -248,7 +248,7 @@ ovs-ofctl -O OpenFlow13 dump-ports s4
 
 ---
 
-## 🐛 Dépannage
+## Dépannage
 
 ### Le contrôleur ne démarre pas
 ```bash
@@ -279,7 +279,7 @@ sudo python3 scripts/topology.py --no-cli
 
 ---
 
-## 📚 Références
+## Références
 
 - [Ryu SDN Framework](https://ryu-sdn.org/)
 - [Mininet Documentation](http://mininet.org/)
@@ -288,16 +288,16 @@ sudo python3 scripts/topology.py --no-cli
 
 ---
 
-## 📝 Livrables
+## Livrables
 
-1. ✅ Code source (Ryu + scripts Python)
-2. ⏳ Vidéo de démonstration (2 min)
-3. ⏳ Slides de soutenance finale
-4. ⏳ Rapport de métriques
+1. Code source (Ryu + scripts Python)
+2. Vidéo de démonstration (2 min)
+3. Slides de soutenance finale
+4. Rapport de métriques
 
 ---
 
-## 📅 Planning
+## Planning
 
 | Phase | Dates | Statut |
 |-------|-------|--------|
@@ -307,9 +307,9 @@ sudo python3 scripts/topology.py --no-cli
 | Finalisation | 16 - 22 Jan | ⏳ À venir |
 
 **Dates clés:**
-- 📅 8 Janvier: Tutorat Teams
-- 📅 22 Janvier: Soutenance finale
-- 📅 15 Février: Dépôt vidéo
+- 8 Janvier: Tutorat Teams
+- 22 Janvier: Soutenance finale
+- 15 Février: Dépôt vidéo
 
 ---
 
